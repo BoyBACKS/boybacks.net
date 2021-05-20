@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    background: linear-gradient(-35deg, #7a87ff, #af7aff, #7acaff);
+    background-size: 300% 300%;
+    animation: gradientBG 20s ease infinite;
+    text-decoration: none;
+}
+
+.btext {
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 1.4em;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 4em;
+    transition: 1s;
+    white-space: nowrap;
+}
+
+#particles-js {
+    background: linear-gradient(-35deg, #7a87ff, #af7aff, #7acaff);
+    background-size: 300% 300%;
+    height: 94vh;
+    animation: gradientBG 20s ease infinite;
+    overflow: hidden;
+    transition: 2s;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.7s;
+    display: inline;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+.titleSubHeading4 {
+    size: 17px;
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #3ebcff80;
+    transition: 0.7s;
+}
+
+.section {
+    height: auto;
+    background-color: #121212;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: none;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    transition: 2s;
+}
+
+.title {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5vh;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+.titleHeading {
+    font-size: 40px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+.contianerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+    border-spacing: 150px;
+    transition: 2s;
+}
+
+.itemFlex {
+    margin: 50px 50px 50px 50px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+.titleHeadingSmall {
+    font-size: 20px;
+    margin-top: -10px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+.titleSubHeading1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -20px;
+    font-weight: normal;
+    font-size: 18px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    text-align: left;
+    transition: 2s;
+}
+
+.section2 {
+    height: 7vh;
+    background-color: #121212;
+    background:#12121241;
+    -webkit-backdrop-filter: saturate(180%) blur(8px);
+    backdrop-filter: saturate(180%) blur(8px);
+    transition: 2s;
+}
+
+.titleSubHeading2 {
+    font-weight: lighter;
+    font-size: 16px;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+}
+
+@media screen and (max-width:1650px) {
+    #dev {
+        height: 80vh;
+        transition: 2s;
+    }
+    
+    #graph {
+        height: 85vh;
+        transition: 2s;
+    }
+    
+    #video {
+        height: 80vh;
+        transition: 2s;
+    }
+    body {
+        font-size: 16px;
+        transition: 2s;
+    }
+    .titleHeading {
+        font-size: 20px;
+        transition: 2s;
+    }
+    .titleSubHeading1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -20px;
+        font-weight: normal;
+        font-size: 15px;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 2s;
+        animation-name: animatebottom;
+        animation-duration: 2s;
+        text-align: left;
+        transition: 2s;
+    }
+    .itemFlex {
+        margin: 10px 10px 10px 10px;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 2s;
+        animation-name: animatebottom;
+        animation-duration: 2s;
+        transition: 2s;
+    }
+    .contianerFlex {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+        flex-wrap: nowrap;
+        flex-shrink: 2;
+        justify-content: center;
+        list-style: none;
+        max-width: 70%;
+        transition: 2s;
+    }
+    .section2 {
+        height: 15vh;
+        transition: 2s;
+    }
+    .containerSenpai {
+        max-width: 98rem;
+        margin: 0 auto;
+        padding: 0 2.2rem;
+        padding-right: unset;
+        transition: 2s;
+    }
+    
+}
+
+@media screen {
+    
+    #particles-js {
+        height: 100vh;
+        transition: 2s;
+    }
+
+    #home {
+        height: 100vh;
+        transition: 2s;
+    }
+    
+}
